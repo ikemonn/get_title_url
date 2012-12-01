@@ -1,0 +1,15 @@
+{
+  "name": "Get title and URL",
+  "version":"1.0",
+  "manifest_version": 2,
+  "description": "You can get title and url.",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+     "tabs",
+     "http://*/*",
+    "https://*/*"
+  ]
+}
